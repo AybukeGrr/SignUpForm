@@ -1,0 +1,32 @@
+#form{
+    display: flex;
+    justify-content: center;
+}
+
+#outlined-name{
+    padding: 11px;
+    margin-inline: 10px ;
+}
+
+#span{
+    margin-inline: 10px;
+}
+
+#outlined-password-input{
+    padding: 11px;
+    margin-inline: 10px ;
+}
+
+#button{
+    padding-inline: 20px;
+    margin: 20px;
+}
+
+#error{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    color: darkred;
+    font-size: 11px;
+    font-weight: bold;
+}
