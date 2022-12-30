@@ -123,7 +123,10 @@ function SignUpForm() {
           id="button"
           variant="contained"
           onClick={() => {
-            {errors.email || errors.password
+            {errors.email ||
+            errors.password ||
+            values.email === "" ||
+            values.password === ""
               ? alert("Please fill in the required fields.")
               : alert(
                   `${values.firstName} ${values.lastName}` +
