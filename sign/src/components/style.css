@@ -34,11 +34,36 @@
 #card{
     display: flex;
     justify-content: center;
-    margin: 230px;
-   background-color: aquamarine;
-   margin-inline: 500px;
+    margin-bottom: auto;
+    padding-inline: 30px;
 }
 
 img{
-    width: 500px;
+    width: 525px;
+}
+
+.signImage{
+    display: flex;
+    margin-inline-start: -280px;
+    justify-content: flex-start;
+}
+
+.formColumn{
+    display: flex;
+    /* margin: 670px; */
+    margin-left: auto;
+    margin-top: 210px;
+}
+
+.g-4{
+    display: flex;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: inline-grid;
 }

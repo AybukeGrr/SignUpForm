@@ -126,7 +126,7 @@ function SignUpForm() {
             {errors.email ||
             errors.password ||
             values.email === "" ||
-            values.password === ""
+            values.password === "" || values.email === <TextField>{errors.email}</TextField>
               ? alert("Please fill in the required fields.")
               : alert(
                   `${values.firstName} ${values.lastName}` +
